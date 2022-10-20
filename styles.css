@@ -8,8 +8,8 @@
 main {
   background-image: linear-gradient(
     109.6deg,
-    rgba(62, 161, 219, 1) 11.2%,
-    rgba(93, 52, 236, 1) 100.2%
+    rgb(228, 61, 189) 70.2%,
+    rgb(110, 25, 189) 100.2%
   );
   width: 100vw;
   height: 100vh;
@@ -46,7 +46,7 @@ form {
   padding: 10px;
   border: 1px solid #eee;
   outline: none;
-  width: 65%;
+  width: 35%;
 }
 
 .inputForm::placeholder {
@@ -54,12 +54,13 @@ form {
 }
 
 .btnCreate {
-  padding: 10px 15px;
+  padding: 5px 15px;
   background-image: linear-gradient(
     109.6deg,
-    rgba(62, 161, 219, 1) 11.2%,
-    rgba(93, 52, 236, 1) 100.2%
+    rgb(228, 61, 189) 70.2%,
+    rgb(110, 25, 189) 100.2%
   );
+  margin: 5px;
   border: none;
   color: #fff;
   border-radius: 5px;
@@ -121,4 +122,25 @@ form {
 
 .noTasks {
   font-size: 48px;
+}
+
+.date{
+  width:100%;
+  padding: 15px;
+}
+
+@media (max-width:768px){
+  .mainCard {
+    width: 75%;
+  }
+  .btnCreate {
+    padding: 5px 8px;
+    background-image: linear-gradient(
+      109.6deg,
+      rgb(228, 61, 189) 70.2%,
+      rgb(110, 25, 189) 100.2%,
+    );
+    font-size: .8em;
+  }
+  
 }
